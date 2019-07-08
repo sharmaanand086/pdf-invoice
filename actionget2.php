@@ -38,7 +38,7 @@ require_once('class.phpmailer.php');
 //var_dump($price1);		
 	//$price = $_SESSION['total'];
 	
-	 $conn = mysqli_connect('localhost', 'world_hello', 'Mumbai@123', 'stftitle');
+	 $conn = mysqli_connect('localhost', 'username', 'Mumbai@123', 'stftitle');
                      
  	            $main = "SELECT `id`, `pname`, `amount` FROM `products`";
             	    $results =$conn->query($main);
@@ -61,7 +61,7 @@ require_once('class.phpmailer.php');
 	$mail->Port = '26';
 	$mail->SMTPAuth = 'true';                               // Enable SMTP authentication
 	$mail->Username = 'arfeenkhan@arfeenkhan.com';                            // SMTP username
-	$mail->Password = 'rNX7zSKSCnev';                           // SMTP password
+	$mail->Password = 'asdfafsdafa';                           // SMTP password
 	$mail->SMTPSecure = 'SSL/TLS';
 
 	try 
