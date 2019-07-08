@@ -284,7 +284,7 @@ Smashx Strategies Pvt.Ltd.<br>
 	$mail->Port = '26';
 	$mail->SMTPAuth = 'true';                               // Enable SMTP authentication
 	$mail->Username = 'arfeenkhan@arfeenkhan.com';                            // SMTP username
-	$mail->Password = 'rNX7zSKSCnev';                           // SMTP password
+	$mail->Password = 'dsfgsgsdgdsgsd';                           // SMTP password
 	$mail->SMTPSecure = 'SSL/TLS';
 
 	try 
